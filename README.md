@@ -19,7 +19,7 @@ O dataset utilizado para esta análise foi o **Goodreads-books** disponível na 
 
 * **Fonte:** https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks
 * **Conteúdo:** Inclui arquivos CSV com informações de livros, reviews e notas.
-
+* **Link planner:** https://trello.com/b/glsrUTGu/gerenc-banco-de-dados
 ---
 
 ### Estrutura do Repositório
