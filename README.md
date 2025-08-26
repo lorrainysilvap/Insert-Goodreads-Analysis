@@ -24,5 +24,5 @@ O dataset utilizado para esta análise foi o **Goodreads-books** disponível na 
 
 ### Estrutura do Repositório
 
-* `data/`: Pasta contendo o(s) arquivo(s) CSV do dataset baixado do Kaggle.
+* `data/`: Pasta contendo os arquivos CSV do dataset baixado do Kaggle.
 * `README.md`: Este arquivo, que fornece uma visão geral do projeto.
