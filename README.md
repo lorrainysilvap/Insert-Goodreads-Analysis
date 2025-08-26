@@ -13,7 +13,7 @@ Estamos utilizando um conjunto de dados do **Goodreads**, extraido através do K
 
 O dataset utilizado para esta análise foi o **Goodreads-books** disponível na plataforma Kaggle. Ele contém informações detalhadas sobre livros, autores, editoras e avaliações feitas por usuários.
 
-* **Fonte:** https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks
+* **Fonte:** [Kaggle](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks)
 * **Conteúdo:** Inclui arquivos CSV com informações de livros, reviews e notas.
 
 ---
