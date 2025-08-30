@@ -7,51 +7,35 @@ Estamos utilizando um conjunto de dados do **Goodreads**, extraido através do K
 
 ## 📖 Índice
 
-1.  [Planejamento](#️-planejamento)
-2.  [Fontes de Dados](#-fontes-de-dados)
-3.  [Estrutura do repositório](#-estrutura-do-repositório)
-4.  [Objetivo](#-objetivo)
+1. [Planejamento](#️planejamento)  
+2. [Fontes de Dados](#fonte-dos-dados)  
+3. [Estrutura do Repositório](#️estrutura-do-repositório)  
+4. [Objetivo](#objetivo)  
    
 ---
 
-### 🗓️Planejamento
+## 🗓️Planejamento
 
 * **Planner do projeto:** [Trello](https://trello.com/b/glsrUTGu)
 ---
 
-### 🔗 Fonte dos Dados
+## 🔗 Fonte dos Dados
 
 O dataset utilizado para esta análise foi o **Goodreads-books** disponível na plataforma Kaggle. Ele contém informações detalhadas sobre livros, autores, editoras e avaliações feitas por usuários.
   
 * [Amazon Product Reviews - Books](https://cseweb.ucsd.edu/~jmcauley/datasets.html).
- **Conteúdo:** Cada registro possui informações sobre o livro e a avaliação do usuário:
-  
-* reviewerID → ID único do usuário
-* reviewerName → Nome do avaliador
-* asin → ID único do produto (livro)
-* reviewText → Texto completo da avaliação
-* summary → Resumo ou título da avaliação
-* overall → Nota dada (1 a 5 estrelas)
-* helpful → Votos de utilidade [x, y] (x = votos úteis, y = total de votos)
-* unixReviewTime → Data em timestamp Unix
-* reviewTime → Data legível (ex.: 07 3, 2012)
-* title → Título do livro
-* price → Preço
-* publisher → Editora
-* categories → Lista de categorias/subcategorias
-* salesRank → Ranking de vendas
-* related → Livros relacionados (ex.: “comprados juntos”)
+ **Conteúdo:** Cada registro possui informações sobre o livro e a avaliação do usuário.
 
 ---
 
-### 🗂️ Estrutura do Repositório
+## 🗂️ Estrutura do Repositório
 
 * `data/`: Pasta contendo os arquivos CSV do dataset baixado do Kaggle.
 * `README.md`: Este arquivo, que fornece uma visão geral do projeto.
 
 ---
 
-### 📍Objetivo
+## 📍Objetivo
 O projeto busca responder as seguintes perguntas:
 *  **Crescimento de Reviews:** Quais livros tiveram o maior crescimento no número de avaliações no último trimestre e ano?
 *  **Efeito Hype/Fadiga:** A nota média de um livro tende a cair após picos de reviews? (Investigação sobre o "efeito hype").
