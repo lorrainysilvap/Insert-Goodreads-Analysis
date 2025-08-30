@@ -6,7 +6,7 @@ Estamos utilizando um conjunto de dados do **Goodreads**, extraido através do K
 ---
 ### 🗓️Planejamento
 
-* **Planner do projeto:** [Trello](https://trello.com/b/glSlUTGu/gerenc-banco-de-dados)
+* **Planner do projeto:** [Trello](https://trello.com/b/glsrUTGu)
 ---
 
 ### 🔗 Fonte dos Dados
