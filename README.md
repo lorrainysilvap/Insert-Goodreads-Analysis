@@ -14,13 +14,15 @@ Estamos utilizando um conjunto de dados do **Goodreads**, extraído através do 
 
 ---
 
-## 🗓️ Planejamento
+<!-- Títulos com âncoras seguras usando HTML -->
+
+<h2 id="planejamento">🗓️ Planejamento</h2>
 
 * **Planner do projeto:** [Trello](https://trello.com/b/glsrUTGu)
 
 ---
 
-## 🔗 Fonte dos Dados
+<h2 id="fonte-dos-dados">🔗 Fonte dos Dados</h2>
 
 Este projeto utiliza o dataset **Amazon Product Reviews – Books**, que contém milhões de avaliações de livros feitas por usuários na plataforma Amazon.
 
@@ -31,7 +33,6 @@ Este projeto utiliza o dataset **Amazon Product Reviews – Books**, que contém
 
 ---
 
-<!-- Título com âncora segura usando HTML -->
 <h2 id="estrutura-do-repositorio">📂 Estrutura do Repositório</h2>
 
 * `data/`: Pasta contendo os arquivos CSV do dataset baixado do Kaggle.  
@@ -39,7 +40,7 @@ Este projeto utiliza o dataset **Amazon Product Reviews – Books**, que contém
 
 ---
 
-## 📍 Objetivo
+<h2 id="objetivo">📍 Objetivo</h2>
 
 O projeto busca responder as seguintes perguntas:  
 
