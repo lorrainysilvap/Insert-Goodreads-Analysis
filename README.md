@@ -21,10 +21,12 @@ Estamos utilizando um conjunto de dados do **Goodreads**, extraido através do K
 
 ## 🔗 Fonte dos Dados
 
-O dataset utilizado para esta análise foi o **Goodreads-books** disponível na plataforma Kaggle. Ele contém informações detalhadas sobre livros, autores, editoras e avaliações feitas por usuários.
+Este projeto utiliza o dataset **Amazon Product Reviews – Books**, que contém milhões de avaliações de livros feitas por usuários na plataforma Amazon.
   
 * [Amazon Product Reviews - Books](https://cseweb.ucsd.edu/~jmcauley/datasets.html).
- **Conteúdo:** Cada registro possui informações sobre o livro e a avaliação do usuário.
+-  **Conteúdo:** Cada registro possui informações sobre o livro e a avaliação do usuário.
+  🔹 Avaliações
+  🔹 Metadados dos Livros
 
 ---
 
