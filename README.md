@@ -7,9 +7,9 @@ Estamos utilizando um conjunto de dados do **Goodreads**, extraido através do K
 
 ## 📖 Índice
 
-1. [Planejamento](#️planejamento)  
+1. [Planejamento](#planejamento)  
 2. [Fonte dos Dados](#-fonte-dos-dados)  
-3. [Estrutura do Repositório](#-estrutura-do-repositório)  
+3. [Estrutura do Repositório](#-estrutura-do-repositorio)  
 4. [Objetivo](#objetivo)  
    
 ---
