@@ -10,7 +10,8 @@ Estamos utilizando um conjunto de dados do **Goodreads**, extraído através do 
 1. [Planejamento](#planejamento)  
 2. [Fonte dos Dados](#fonte-dos-dados)  
 3. [Estrutura do Repositório](#estrutura-do-repositorio)  
-4. [Objetivo](#objetivo)  
+4. [Objetivo](#objetivo)
+5. [Análise de Dados](#analise-de-dados)
 
 ---
 
@@ -41,6 +42,12 @@ Este projeto utiliza o dataset **Amazon Product Reviews – Books**, que contém
 ---
 
 <h2 id="objetivo">📍 Objetivo</h2>
+
+O objetivo deste projeto é analisar os dados de avaliações de livros na Amazon, buscando identificar padrões e tendências no comportamento dos leitores, no desempenho de diferentes obras e editoras, e nas variações de popularidade ao longo do tempo. A partir dessa análise, pretende-se extrair insights relevantes que possam contribuir para a compreensão do mercado literário e do engajamento dos usuários com os livros.
+
+---
+
+<h2 id="analise-de-dados">📈 Análise de Dados</h2>
 
 O projeto busca responder as seguintes perguntas:  
 
