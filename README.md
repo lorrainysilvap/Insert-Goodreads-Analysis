@@ -9,7 +9,7 @@ Estamos utilizando um conjunto de dados do **Goodreads**, extraido através do K
 
 1. [Planejamento](#planejamento)  
 2. [Fonte dos Dados](#-fonte-dos-dados)  
-3. [Estrutura do Repositório](#-estrutura-do-repositorio)  
+3. [Estrutura do Repositório](#-estrutura-do-repositorio)
 4. [Objetivo](#objetivo)  
    
 ---
@@ -30,7 +30,7 @@ Este projeto utiliza o dataset **Amazon Product Reviews – Books**, que contém
 
 ---
 
-## 🗂️ Estrutura do Repositório
+## 📂 Estrutura do Repositório
 
 * `data/`: Pasta contendo os arquivos CSV do dataset baixado do Kaggle.
 * `README.md`: Este arquivo, que fornece uma visão geral do projeto.
