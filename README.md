@@ -24,6 +24,7 @@ O objetivo deste projeto é analisar os dados de avaliações de livros na Amazo
 <h2 id="planejamento">🗓️ Planejamento</h2>
 
 * **Planner do projeto:** [Trello](https://trello.com/b/glsrUTGu)
+* **Plano Análise de Dados:** [Notion](https://www.notion.so/An-lise-de-Dados-de-Reviews-da-Amazon-Books-2602e007d63e809ba953ccd10c330932?source=copy_link)
 
 ---
 
@@ -47,10 +48,15 @@ Para acessar o dataset, abra o link, vá até o Amazon Product Reviews, clique n
 
 ---
 
-<h2 id="analise-de-dados">📈 Análise de Dados</h2>
+<h2 id="plano-analise-de-dados">📈 Plano análise de Dados</h2>
 
 O projeto busca responder as seguintes perguntas:  
 
-* **Crescimento de Reviews:** Quais livros tiveram o maior crescimento no número de avaliações no último trimestre e ano?  
-* **Efeito Hype/Fadiga:** A nota média de um livro tende a cair após picos de reviews? (Investigação sobre o "efeito hype").  
-* **Desempenho por Editora:** Quais editoras têm o melhor desempenho por gênero em termos de nota média e volume de avaliações?
+1. Quais livros tiveram o maior crescimento no número de avaliações no último trimestre e ano?  
+2. A nota média de um livro tende a cair após picos de reviews?  
+3. Quais editoras têm o melhor desempenho por gênero em termos de nota média e volume de avaliações?
+4. Quais gêneros literários tendem a receber as melhores avaliações?
+5. Quais autores têm as avaliações médias mais altas?
+
+**Material completo**  
+Acesse todas as perguntas detalhadas no documento: [Plano Análise de Dados](https://www.notion.so/An-lise-de-Dados-de-Reviews-da-Amazon-Books-2602e007d63e809ba953ccd10c330932?source=copy_link)
