@@ -35,6 +35,8 @@ Este projeto utiliza o dataset **Amazon Product Reviews – Books**, que contém
   - **Conteúdo:** Cada registro possui informações sobre o livro e a avaliação do usuário.  
     🔹 Avaliações  
     🔹 Metadados dos Livros
+    
+Para acessar o dataset, abra o link, vá até o Amazon Product Reviews, clique no link Amazon Reviews 2023, e vá até o *Grouped by category* lá estará o dataset Books.
 
 ---
 
