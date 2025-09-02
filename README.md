@@ -65,6 +65,6 @@ Acesse todas as perguntas detalhadas no documento: [Plano Análise de Dados](htt
 ---
 
 <h2 id="dicionario-de-dados">📖 Dicionário de Dados</h2>
-O projeto conta com um dicionário de dados que descreve as tabelas utilizadas para análise de reviews de livros. Fornececendo uma visão completa das entidades, atributos e relacionamentos, servindo como base para documentação e análise.
+O projeto conta com um dicionário de dados que descreve as tabelas utilizadas para análise de reviews de livros. Fornecendo uma visão completa das entidades, atributos e relacionamentos, servindo como base para documentação e análise.
 
 * **Dicionário de Dados:** [Notion](https://www.notion.so/Dicion-rio-de-dados-2612e007d63e80dfbed5ec4966221406?source=copy_link) 
