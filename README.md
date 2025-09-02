@@ -1,7 +1,7 @@
 # 📚 Análise de Dados de reviews da Amazon - Books
 
 Este repositório armazena o projeto de análise de dados sobre literatura, parte da disciplina de Modelagem de Banco de Dados II, do curso de Ciência da Computação 6º semestre.  
-Estamos utilizando um conjunto de dados do **Goodreads**, extraído através do Kaggle. O objetivo principal da análise é explorar tendências e padrões no comportamento de leitores e no desempenho de livros ao longo do tempo.
+Estamos utilizando um conjunto de dados extraído do **Amazon Product Reviews – Books**. O objetivo principal da análise é explorar tendências e padrões no comportamento de leitores e no desempenho de livros ao longo do tempo.
 
 ---
 
