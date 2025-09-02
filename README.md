@@ -12,6 +12,7 @@ Estamos utilizando um conjunto de dados do **Goodreads**, extraído através do 
 3. [Fonte dos Dados](#fonte-dos-dados)  
 4. [Estrutura do Repositório](#estrutura-do-repositorio)  
 5. [Análise de Dados](#analise-de-dados)
+6. [Dicionário de Dados](#dicionario-de-dados)
 
 ---
 
@@ -60,3 +61,9 @@ O projeto busca responder as seguintes perguntas:
 
 **Material completo**  
 Acesse todas as perguntas detalhadas no documento: [Plano Análise de Dados](https://www.notion.so/An-lise-de-Dados-de-Reviews-da-Amazon-Books-2602e007d63e809ba953ccd10c330932?source=copy_link)
+
+---
+
+<h2 id="dicionario-de-dados">📖 Dicionário de Dados</h2>
+O projeto conta com um dicionário de dados que descreve as tabelas utilizadas para análise de reviews de livros. Fornececendo uma visão completa das entidades, atributos e relacionamentos, servindo como base para documentação e análise.
+* **Dicionário de Dados:** [Notion](https://www.notion.so/Dicion-rio-de-dados-2612e007d63e80dfbed5ec4966221406?source=copy_link) 
