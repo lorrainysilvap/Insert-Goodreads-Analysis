@@ -10,9 +10,10 @@ Estamos utilizando um conjunto de dados do **Goodreads**, extraído através do 
 1. [Objetivo](#objetivo)
 2. [Planejamento](#planejamento)  
 3. [Fonte dos Dados](#fonte-dos-dados)  
-4. [Estrutura do Repositório](#estrutura-do-repositorio)  
-5. [Análise de Dados](#analise-de-dados)
-
+4. [Estrutura do Repositório](#estrutura-do-repositorio)
+5. [Dicionário de Dados](#Dicionário-de-dados).
+6. [Análise de Dados](#analise-de-dados)
+7. [Modelo Lógico](#modelo-logico)
 ---
 
 <h2 id="objetivo">📍 Objetivo</h2>
@@ -48,6 +49,12 @@ Para acessar o dataset, abra o link, vá até o Amazon Product Reviews, clique n
 
 ---
 
+**Dicionário de Dados**
+
+https://protect.checkpoint.com/v2/r02/___https://www.notion.so/Dicion-rio-de-dados-2612e007d63e80dfbed5ec4966221406?source=copy_link___.YzJlOnRlbGVmb25pY2FicmF6aWw6YzpvOmRiMTg1Y2E2YzJmOTdmOGM1YzFiYWY5MGExNTM0NmIwOjc6NDMwODphZDZiMzZkNWQxZTQzZGNmYzFmZTgwYWFkYzBkNjM0N2U1ZjRlN2I1OWJhY2FjYjc4NTBkMmYyYmE2Y2MyNGFlOmg6VDpG
+
+---
+
 <h2 id="plano-analise-de-dados">📈 Plano análise de Dados</h2>
 
 O projeto busca responder as seguintes perguntas:  
@@ -57,6 +64,15 @@ O projeto busca responder as seguintes perguntas:
 3. Quais editoras têm o melhor desempenho por gênero em termos de nota média e volume de avaliações?
 4. Quais gêneros literários tendem a receber as melhores avaliações?
 5. Quais autores têm as avaliações médias mais altas?
+   
+---
 
 **Material completo**  
 Acesse todas as perguntas detalhadas no documento: [Plano Análise de Dados](https://www.notion.so/An-lise-de-Dados-de-Reviews-da-Amazon-Books-2602e007d63e809ba953ccd10c330932?source=copy_link)
+
+---
+
+**Modelo Lógico**
+
+<img width="461" height="281" alt="image" src="https://github.com/user-attachments/assets/c0468068-6437-4a1f-8d45-f4b547e614d2" />
+
