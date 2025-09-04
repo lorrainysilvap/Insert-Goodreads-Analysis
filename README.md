@@ -11,9 +11,8 @@ Estamos utilizando um conjunto de dados do **Goodreads**, extraído através do 
 2. [Planejamento](#planejamento)  
 3. [Fonte dos Dados](#fonte-dos-dados)  
 4. [Estrutura do Repositório](#estrutura-do-repositorio)
-5. [Dicionário de Dados](#Dicionário-de-dados).
-6. [Análise de Dados](#analise-de-dados)
-7. [Modelo Lógico](#modelo-logico)
+5. [Análise de Dados](#analise-de-dados)
+6. [Modelo Lógico](#modelo-logico)
 
 ---
 
@@ -34,7 +33,8 @@ O objetivo deste projeto é analisar os dados de avaliações de livros na Amazo
 
 Este projeto utiliza o dataset **Amazon Product Reviews – Books**, que contém milhões de avaliações de livros feitas por usuários na plataforma Amazon.
 
-* [Amazon Product Reviews - Books](https://cseweb.ucsd.edu/~jmcauley/datasets.html)  
+* [Amazon Product Reviews - Books](https://cseweb.ucsd.edu/~jmcauley/datasets.html)
+* [Dicionário de Dados](https://www.notion.so/Dicion-rio-de-dados-2612e007d63e80dfbed5ec4966221406?source=copy_link)
   - **Conteúdo:** Cada registro possui informações sobre o livro e a avaliação do usuário.  
     🔹 Avaliações  
     🔹 Metadados dos Livros
@@ -50,12 +50,6 @@ Para acessar o dataset, abra o link, vá até o Amazon Product Reviews, clique n
 
 ---
 
-<h2 id="dicionario-de-dados">📘 Dicionário de Dados</h2>
-
-[Notion](https://www.notion.so/Dicion-rio-de-dados-2612e007d63e80dfbed5ec4966221406?source=copy_link)
-
----
-
 <h2 id="plano-analise-de-dados">📈 Plano análise de Dados</h2>
 
 O projeto busca responder as seguintes perguntas:  
@@ -68,12 +62,15 @@ O projeto busca responder as seguintes perguntas:
    
 ---
 
-**🔎Material completo**  
+<h2 id="materia-completo">🔎 Plano análise de Dados</h2> 
 Acesse todas as perguntas detalhadas no documento: [Plano Análise de Dados](https://www.notion.so/An-lise-de-Dados-de-Reviews-da-Amazon-Books-2602e007d63e809ba953ccd10c330932?source=copy_link)
 
 ---
 
-**💡Modelo Lógico**
+<h2 id="modelo-logico">💡 Modelo Lógico</h2>
 
 [LucidChart](https://lucid.app/lucidchart/eaafedb9-63a4-4c84-92d0-54e4cdd57607/edit?viewport_loc=-486%2C226%2C3586%2C1475%2CHWEp-vi-RSFO&invitationId=inv_5f967cc8-8434-4b09-8b63-84c4b0b0844b)
+
+(docs/Diagrama-reviews-da-amazon.pdf)
+
 
