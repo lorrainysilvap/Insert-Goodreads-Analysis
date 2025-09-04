@@ -14,6 +14,7 @@ Estamos utilizando um conjunto de dados do **Goodreads**, extraído através do 
 5. [Dicionário de Dados](#Dicionário-de-dados).
 6. [Análise de Dados](#analise-de-dados)
 7. [Modelo Lógico](#modelo-logico)
+
 ---
 
 <h2 id="objetivo">📍 Objetivo</h2>
@@ -49,9 +50,9 @@ Para acessar o dataset, abra o link, vá até o Amazon Product Reviews, clique n
 
 ---
 
-**Dicionário de Dados**
+<h2 id="dicionario-de-dados">📘 Dicionário de Dados</h2>
 
-https://protect.checkpoint.com/v2/r02/___https://www.notion.so/Dicion-rio-de-dados-2612e007d63e80dfbed5ec4966221406?source=copy_link___.YzJlOnRlbGVmb25pY2FicmF6aWw6YzpvOmRiMTg1Y2E2YzJmOTdmOGM1YzFiYWY5MGExNTM0NmIwOjc6NDMwODphZDZiMzZkNWQxZTQzZGNmYzFmZTgwYWFkYzBkNjM0N2U1ZjRlN2I1OWJhY2FjYjc4NTBkMmYyYmE2Y2MyNGFlOmg6VDpG
+[Notion](https://www.notion.so/Dicion-rio-de-dados-2612e007d63e80dfbed5ec4966221406?source=copy_link)
 
 ---
 
@@ -67,12 +68,12 @@ O projeto busca responder as seguintes perguntas:
    
 ---
 
-**Material completo**  
+**🔎Material completo**  
 Acesse todas as perguntas detalhadas no documento: [Plano Análise de Dados](https://www.notion.so/An-lise-de-Dados-de-Reviews-da-Amazon-Books-2602e007d63e809ba953ccd10c330932?source=copy_link)
 
 ---
 
-**Modelo Lógico**
+**💡Modelo Lógico**
 
-<img width="461" height="281" alt="image" src="https://github.com/user-attachments/assets/c0468068-6437-4a1f-8d45-f4b547e614d2" />
+[LucidChart](https://lucid.app/lucidchart/eaafedb9-63a4-4c84-92d0-54e4cdd57607/edit?viewport_loc=-486%2C226%2C3586%2C1475%2CHWEp-vi-RSFO&invitationId=inv_5f967cc8-8434-4b09-8b63-84c4b0b0844b)
 
