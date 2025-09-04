@@ -52,6 +52,8 @@ Para acessar o dataset, abra o link, vá até o Amazon Product Reviews, clique n
 
 <h2 id="plano-analise-de-dados">📈 Plano análise de Dados</h2>
 
+*Detalhes no documento:[Plano Análise de Dados](https://www.notion.so/An-lise-de-Dados-de-Reviews-da-Amazon-Books-2602e007d63e809ba953ccd10c330932?source=copy_link)
+
 O projeto busca responder as seguintes perguntas:  
 
 1. Quais livros tiveram o maior crescimento no número de avaliações no último trimestre e ano?  
@@ -59,11 +61,6 @@ O projeto busca responder as seguintes perguntas:
 3. Quais editoras têm o melhor desempenho por gênero em termos de nota média e volume de avaliações?
 4. Quais gêneros literários tendem a receber as melhores avaliações?
 5. Quais autores têm as avaliações médias mais altas?
-   
----
-
-<h2 id="materia-completo">🔎 Plano análise de Dados</h2> 
-Acesse todas as perguntas detalhadas no documento: [Plano Análise de Dados](https://www.notion.so/An-lise-de-Dados-de-Reviews-da-Amazon-Books-2602e007d63e809ba953ccd10c330932?source=copy_link)
 
 ---
 
@@ -71,6 +68,7 @@ Acesse todas as perguntas detalhadas no documento: [Plano Análise de Dados](htt
 
 [LucidChart](https://lucid.app/lucidchart/eaafedb9-63a4-4c84-92d0-54e4cdd57607/edit?viewport_loc=-486%2C226%2C3586%2C1475%2CHWEp-vi-RSFO&invitationId=inv_5f967cc8-8434-4b09-8b63-84c4b0b0844b)
 
-(docs/Diagrama-reviews-da-amazon.pdf)
+<img width="2349" height="1727" alt="Diagrama reviews da Amazon  (1)" src="https://github.com/user-attachments/assets/4cbaa004-51d8-4da8-a7b4-04c12139961f" />
+
 
 
