@@ -50,9 +50,7 @@ Para acessar o dataset, abra o link, vá até o Amazon Product Reviews, clique n
 
 ---
 
-<h2 id="plano-analise-de-dados">📈 Plano análise de Dados</h2>
-
-*Detalhes no documento:[Plano Análise de Dados](https://www.notion.so/An-lise-de-Dados-de-Reviews-da-Amazon-Books-2602e007d63e809ba953ccd10c330932?source=copy_link)
+<h2 id="analise-de-dados">📈 Plano análise de Dados</h2>
 
 O projeto busca responder as seguintes perguntas:  
 
@@ -61,6 +59,8 @@ O projeto busca responder as seguintes perguntas:
 3. Quais editoras têm o melhor desempenho por gênero em termos de nota média e volume de avaliações?
 4. Quais gêneros literários tendem a receber as melhores avaliações?
 5. Quais autores têm as avaliações médias mais altas?
+
+Detalhes no documento:[Plano Análise de Dados](https://www.notion.so/An-lise-de-Dados-de-Reviews-da-Amazon-Books-2602e007d63e809ba953ccd10c330932?source=copy_link)
 
 ---
 
