@@ -1,105 +1,149 @@
--- Tabela DimAuthor (Autor)
-CREATE TABLE DimAuthor (
-    author_id INT AUTO_INCREMENT PRIMARY KEY,
-    author_name VARCHAR(255)
-);
+use BooksAmazon
 
--- Tabela DimGenre (Gênero)
-CREATE TABLE DimGenre (
-    genre_id INT AUTO_INCREMENT PRIMARY KEY,
-    genre_name VARCHAR(255)
-);
 
--- Tabela DimDate (Data)
 CREATE TABLE DimDate (
-    date_id INT PRIMARY KEY, 
-    date DATE,
-    year INT,
-    month INT,
-    day INT
-);
 
--- Tabela DimPlatform (Plataforma)
-CREATE TABLE DimPlatform (
-    platform_id INT AUTO_INCREMENT PRIMARY KEY,
-    platform_name VARCHAR(255)
-);
+    date_key INT IDENTITY,
+    date DATE NOT NULL,
+    year INT NOT NULL,
+    quarter INT,
+    month INT NOT NULL,
+    day INT NOT NULL,   
 
--- Tabela DimUser (Usuário)
-CREATE TABLE DimUser (
-    user_id INT AUTO_INCREMENT PRIMARY KEY,
-    reviewer_id VARCHAR(50)
-);
+    CONSTRAINT PK_DimDate PRIMARY KEY (date_key)
 
--- Tabela DimLocale (Localidade/Idioma)
+);  
+
 CREATE TABLE DimLocale (
-    locale_key INT AUTO_INCREMENT PRIMARY KEY,
-    country_code VARCHAR(10),
-    language_code VARCHAR(10),
-    country_name VARCHAR(100),
-    language_name VARCHAR(100)
-);
+    locale_key INT IDENTITY,
+    country_code NVARCHAR(10),
+    language_code NVARCHAR(10),
+    country_name NVARCHAR(100),
+    language_name NVARCHAR(100),
 
--- Tabela DimBook (Livro)
+    CONSTRAINT PK_DimLocale PRIMARY KEY (locale_key)
+
+    )
+
+    
+CREATE TABLE DimPlatform (
+    platform_id INT IDENTITY,
+    platform_name NVARCHAR(100) NOT NULL,  
+
+    CONSTRAINT PK_DimPlatform PRIMARY KEY (platform_id)
+)
+
+
+
+CREATE TABLE DimAuthor (  
+    author_id INT IDENTITY,
+    author_name NVARCHAR(255) NOT NULL,
+
+    CONSTRAINT PK_DimAuthor PRIMARY KEY (author_id)
+)
+
 CREATE TABLE DimBook (
-    book_id INT AUTO_INCREMENT PRIMARY KEY,
-    asin VARCHAR(20),
-    title VARCHAR(500)
+
+    book_id INT IDENTITY,
+    asin NVARCHAR(20) NOT NULL,
+    title NVARCHAR(500) NOT NULL,
+
+    CONSTRAINT PK_DimBook PRIMARY KEY (book_id)
+
+)
+
+CREATE TABLE DimGenre (
+    genre_id INT IDENTITY,
+    genre_name NVARCHAR(100) NOT NULL,
+
+    CONSTRAINT PK_DimGenre PRIMARY KEY (genre_id)
 );
 
--- Tabela DimPublisher (Editora)
-CREATE TABLE DimPublisher (
-    publisher_id INT AUTO_INCREMENT PRIMARY KEY,
-    publisher_name VARCHAR(255),
-    book_id INT,
-    FOREIGN KEY (book_id) REFERENCES DimBook(book_id)
-);
 
--- Tabela DimSeries (Série)
-CREATE TABLE DimSeries (
-    series_id INT AUTO_INCREMENT PRIMARY KEY,
-    series_name VARCHAR(255),
-    book_id INT,
-    FOREIGN KEY (book_id) REFERENCES DimBook(book_id)
-);
-
--- Tabela BookAuthor (Ponte Livro-Autor)
 CREATE TABLE BookAuthor (
-    book_id INT,
-    author_id INT,
-    PRIMARY KEY (book_id, author_id),
-    FOREIGN KEY (book_id) REFERENCES DimBook(book_id),
-    FOREIGN KEY (author_id) REFERENCES DimAuthor(author_id)
-);
 
--- Tabela BookGenre (Ponte Livro-Gênero)
+    book_id INT NOT NULL,
+    author_id INT NOT NULL,
+
+    CONSTRAINT PK_BookAuthor PRIMARY KEY (book_id, author_id),
+    CONSTRAINT FK_BookAuthor_Book FOREIGN KEY (book_id) REFERENCES DimBook(book_id),
+    CONSTRAINT FK_BookAuthor_Author FOREIGN KEY (author_id) REFERENCES DimAuthor(author_id)
+)
+
+CREATE TABLE DimPublisher (
+
+    publisher_id INT IDENTITY,
+    publisher_name NVARCHAR(255) NOT NULL,
+
+    CONSTRAINT PK_DimPublisher PRIMARY KEY (publisher_id),
+    CONSTRAINT FK_Book FOREIGN KEY (book_id) REFERENCES DimBook(book_id) 
+)
+
+
+CREATE TABLE DimSeries (
+
+    series_id INT IDENTITY,
+    series_name NVARCHAR(255) NOT NULL,
+    book_id INT NOT NULL,
+
+
+    CONSTRAINT PK_DimSeries PRIMARY KEY (series_id),
+    CONSTRAINT FK_Book_Series FOREIGN KEY (book_id) REFERENCES DimBook(book_id)
+)
+
+
 CREATE TABLE BookGenre (
-    book_id INT,
-    genre_id INT,
-    PRIMARY KEY (book_id, genre_id),
-    FOREIGN KEY (book_id) REFERENCES DimBook(book_id),
-    FOREIGN KEY (genre_id) REFERENCES DimGenre(genre_id)
-);
 
--- Tabela FactReview (Review)
+    book_id INT NOT NULL,
+    genre_id INT NOT NULL,
+
+    CONSTRAINT PK_BookGenre PRIMARY KEY (book_id, genre_id),
+    CONSTRAINT FK_BookGenre_Book FOREIGN KEY (book_id) REFERENCES DimBook(book_id),
+    CONSTRAINT FK_BookGenre_Genre FOREIGN KEY (genre_id) REFERENCES DimGenre(genre_id)
+
+)
+
+
+CREATE TABLE DimUser (
+
+    user_id INT IDENTITY,
+    user_name NVARCHAR(100),
+
+    CONSTRAINT PK_DimUser PRIMARY KEY (user_id)  
+)
+
+
 CREATE TABLE FactReview (
-    review_id INT AUTO_INCREMENT PRIMARY KEY,
-    book_id INT,
-    user_id INT,
-    date_id INT,
-    platform_id INT,
-    language_id INT,
-    publisher_id INT,
-    series_id INT,
-    rating FLOAT,
+
+    review_id INT IDENTITY,
+    book_id INT NOT NULL,
+    user_id INT NOT NULL,
+    date_key INT NOT NULL,
+    platform_id INT NOT NULL,
+    locale_key INT NOT NULL,
+    publisher_id INT NOT NULL,
+    series_id INT NOT NULL,
+    rating INT NOT NULL,
     review_text_len INT,
     helpful_votes INT,
     total_votes INT,
-    FOREIGN KEY (book_id) REFERENCES DimBook(book_id),
-    FOREIGN KEY (user_id) REFERENCES DimUser(user_id),
-    FOREIGN KEY (date_id) REFERENCES DimDate(date_id),
-    FOREIGN KEY (platform_id) REFERENCES DimPlatform(platform_id),
-    FOREIGN KEY (language_id) REFERENCES DimLocale(locale_key),
-    FOREIGN KEY (publisher_id) REFERENCES DimPublisher(publisher_id),
-    FOREIGN KEY (series_id) REFERENCES DimSeries(series_id)
-);
+
+    CONSTRAINT PK_FactReview PRIMARY KEY (review_id),
+    CONSTRAINT FK_FactReview_Book FOREIGN KEY (book_id) REFERENCES DimBook(book_id),
+    CONSTRAINT FK_FactReview_User FOREIGN KEY (user_id) REFERENCES DimUser(user_id),
+    CONSTRAINT FK_FactReview_Date FOREIGN KEY (date_key) REFERENCES DimDate(date_key),
+    CONSTRAINT FK_FactReview_Platform FOREIGN KEY (platform_id) REFERENCES DimPlatform(platform_id),
+    CONSTRAINT FK_FactReview_Locale FOREIGN KEY (locale_key) REFERENCES DimLocale(locale_key),
+    CONSTRAINT FK_FactReview_Publisher FOREIGN KEY (publisher_id) REFERENCES DimPublisher(publisher_id),
+    CONSTRAINT FK_FactReview_Series FOREIGN KEY (series_id) REFERENCES DimSeries(series_id)
+)
+
+
+-- Índices para melhor performance
+CREATE INDEX IX_FactReview_Book ON FactReview(book_id);
+CREATE INDEX IX_FactReview_Date ON FactReview(date_key);
+CREATE INDEX IX_FactReview_Rating ON FactReview(rating);
+CREATE INDEX IX_BookAuthor_Book ON BookAuthor(book_id);
+CREATE INDEX IX_BookGenre_Book ON BookGenre(book_id);
+
+Select * from [dbo].[DimBook]
