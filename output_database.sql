@@ -12,7 +12,7 @@ CREATE TABLE DimDate (
 
     CONSTRAINT PK_DimDate PRIMARY KEY (date_key)
 
-);  
+)
 
 CREATE TABLE DimLocale (
     locale_key INT IDENTITY,
@@ -57,7 +57,7 @@ CREATE TABLE DimGenre (
     genre_name NVARCHAR(100) NOT NULL,
 
     CONSTRAINT PK_DimGenre PRIMARY KEY (genre_id)
-);
+)
 
 
 CREATE TABLE BookAuthor (
@@ -74,6 +74,7 @@ CREATE TABLE DimPublisher (
 
     publisher_id INT IDENTITY,
     publisher_name NVARCHAR(255) NOT NULL,
+    book_id INT NOT NULL,  
 
     CONSTRAINT PK_DimPublisher PRIMARY KEY (publisher_id),
     CONSTRAINT FK_Book FOREIGN KEY (book_id) REFERENCES DimBook(book_id) 
@@ -138,12 +139,3 @@ CREATE TABLE FactReview (
     CONSTRAINT FK_FactReview_Series FOREIGN KEY (series_id) REFERENCES DimSeries(series_id)
 )
 
-
--- Índices para melhor performance
-CREATE INDEX IX_FactReview_Book ON FactReview(book_id);
-CREATE INDEX IX_FactReview_Date ON FactReview(date_key);
-CREATE INDEX IX_FactReview_Rating ON FactReview(rating);
-CREATE INDEX IX_BookAuthor_Book ON BookAuthor(book_id);
-CREATE INDEX IX_BookGenre_Book ON BookGenre(book_id);
-
-Select * from [dbo].[DimBook]
