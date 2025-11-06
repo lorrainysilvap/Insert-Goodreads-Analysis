@@ -13,6 +13,7 @@ Estamos utilizando um conjunto de dados do **Goodreads**, extraído através do 
 4. [Estrutura do Repositório](#estrutura-do-repositorio)
 5. [Análise de Dados](#analise-de-dados)
 6. [Modelo Lógico](#modelo-logico)
+7. [Backup dos Dados](#backup-dos-dados)
 
 ---
 
@@ -70,5 +71,7 @@ Detalhes no documento:[Plano Análise de Dados](https://www.notion.so/An-lise-de
 
 <img width="2349" height="1727" alt="Diagrama reviews da Amazon  (1)" src="https://github.com/user-attachments/assets/4cbaa004-51d8-4da8-a7b4-04c12139961f" />
 
+<h2 id="backup-dos-dados"> ☁️ Backup dos Dados</h2>
 
+[Clique para acessar](https://drive.google.com/file/d/1wr6Ia_pog0gdKnVEynYZDLNG6eorrE9e/view?usp=sharing)
 
