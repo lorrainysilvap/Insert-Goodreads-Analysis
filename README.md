@@ -48,18 +48,24 @@ Para acessar o dataset, abra o link, vá até o Amazon Product Reviews, clique n
 
 * `data/`: Pasta contendo os arquivos CSV do dataset baixado do Kaggle.  
 * `README.md`: Este arquivo, que fornece uma visão geral do projeto.
-
+* `books.csv`: CSV manipulado no projeto.
+* `output_database.sql`: Construção do Banco de Dados e tabelas.
 ---
 
 <h2 id="analise-de-dados">📈 Plano análise de Dados</h2>
 
 O projeto busca responder as seguintes perguntas:  
 
-1. Quais livros tiveram o maior crescimento no número de avaliações no último trimestre e ano?  
+1. Quais os livros mais vendidos?  
 2. A nota média de um livro tende a cair após picos de reviews?  
-3. Quais editoras têm o melhor desempenho por gênero em termos de nota média e volume de avaliações?
-4. Quais gêneros literários tendem a receber as melhores avaliações?
-5. Quais autores têm as avaliações médias mais altas?
+3. Quais livros têm o melhor custo-benefício alta avaliação e preço acessível?
+4. Existe diferença de preço entre livros mais antigos e mais recentes?
+5. Os livros mais caros têm avaliações mais altas?
+6. Quais autores têm as avaliações médias mais altas?
+7. Há um aumento no número de lançamentos de livros ao longo dos anos?
+8. Quais autores se destacam por terem vários livros bem avaliados?
+9. Quais autores possuem os livros mais caros e mais baratos?
+10. Os livros lançados recentemente têm mais avaliações do que os antigos?
 
 Detalhes no documento:[Plano Análise de Dados](https://www.notion.so/An-lise-de-Dados-de-Reviews-da-Amazon-Books-2602e007d63e809ba953ccd10c330932?source=copy_link)
 
