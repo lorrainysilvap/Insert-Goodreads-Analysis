@@ -79,6 +79,6 @@ Detalhes no documento:[Plano Análise de Dados](https://www.notion.so/An-lise-de
 
 <h2 id="backup-dos-dados"> ☁️ Backup dos Dados</h2>
 
-[Clique para acessar][1 milhão de registros](https://drive.google.com/file/d/1wr6Ia_pog0gdKnVEynYZDLNG6eorrE9e/view?usp=sharing)
-[Backup .bak](https://drive.google.com/file/d/1nKocZ_g4kVYrME2PGfv-jrv_1FSP9Ic2/view?usp=sharing)
+* [1 milhão de registros](https://drive.google.com/file/d/1wr6Ia_pog0gdKnVEynYZDLNG6eorrE9e/view?usp=sharing)
+* [Backup .bak](https://drive.google.com/file/d/1nKocZ_g4kVYrME2PGfv-jrv_1FSP9Ic2/view?usp=sharing)
 
