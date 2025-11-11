@@ -84,9 +84,7 @@ Este guia tem como objetivo explicar como rodar o banco de dados através do Bac
 ---
 
 1️⃣ Criando a tabela no SQL Server
-   Com o SQL execute o script que criará o banco BooksAmazon:
-   
-   ->[`CreateDatabase.sql`](https://github.com/user-attachments/files/23477165/CreateDatabase.sql)
+   Com o SQL execute o script que criará o banco BooksAmazon: [`CreateDatabase.sql`](https://github.com/user-attachments/files/23477165/CreateDatabase.sql)
 
 2️⃣Certifique-se que o banco foi criado olhando na lateral superior esquerda. É importante que ele esteja selecionado, pois os próximos passos deverão ser executados dentro dele.
 
@@ -94,14 +92,9 @@ Este guia tem como objetivo explicar como rodar o banco de dados através do Bac
 <img width="320" height="220" alt="image" src="https://github.com/user-attachments/assets/056bc900-4141-42c0-a404-c183b887dc71" />
 
 
-3️⃣ Execute o Script para criar as tabelas do banco:
+3️⃣ Execute o Script para criar as tabelas do banco: [`CreateTable.sql`](https://github.com/Burufrinhani/Insert-Goodreads-Analysis/blob/main/output_database.sql)
 
-   ->[`CreateTable.sql`](https://github.com/Burufrinhani/Insert-Goodreads-Analysis/blob/main/output_database.sql)
-
-4️⃣ Neste passo, já temos o banco e as tabelas criadas, agora é necessário realizar o download do Backup:
-
-   ->[`BooksAmazon.bak`](https://drive.google.com/file/d/1nKocZ_g4kVYrME2PGfv-jrv_1FSP9Ic2/view?usp=sharing)
-   Realizado o download, armazene em uma pasta local de sua preferência.
+4️⃣ Neste passo, já temos o banco e as tabelas criadas, agora é necessário realizar o download do Backup, armazene-o em uma pasta local de sua preferência: [`BooksAmazon.bak`](https://drive.google.com/file/d/1nKocZ_g4kVYrME2PGfv-jrv_1FSP9Ic2/view?usp=sharing)
    
 5️⃣
 
