@@ -85,7 +85,7 @@ Este guia tem como objetivo explicar como rodar o banco de dados através do Bac
 
 1. Criando a tabela no SQL Server
    Com o SQL execute o script que criará o banco BooksAmazon:
-   ->[CreateDatabase.sql](https://github.com/user-attachments/files/23477165/CreateDatabase.sql)
+   ->`[CreateDatabase.sql](https://github.com/user-attachments/files/23477165/CreateDatabase.sql)`
 
 3. Certifique-se que o banco foi criado olhando na lateral superior esquerda. É importante que ele esteja selecionado, pois os próximos passos deverão ser executados dentro dele.
    ex.: <img width="236" height="173" alt="image" src="https://github.com/user-attachments/assets/df678a0f-8d9b-49a7-a7b2-1b09ad2ba605" />
