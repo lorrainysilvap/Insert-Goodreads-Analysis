@@ -89,18 +89,17 @@ Este guia tem como objetivo explicar como rodar o banco de dados através do Bac
 2️⃣Certifique-se que o banco foi criado olhando na lateral superior esquerda. É importante que ele esteja selecionado, pois os próximos passos deverão ser executados dentro dele.
 
 <p align="left">
-<img width="320" height="220" alt="image" src="https://github.com/user-attachments/assets/056bc900-4141-42c0-a404-c183b887dc71" />
-
+<img width="120" height="80" alt="image" src="https://github.com/user-attachments/assets/056bc900-4141-42c0-a404-c183b887dc71" />
 
 3️⃣ Execute o Script para criar as tabelas do banco: [`CreateTable.sql`](https://github.com/Burufrinhani/Insert-Goodreads-Analysis/blob/main/output_database.sql)
 
-4️⃣ Neste passo, já temos o banco e as tabelas criadas, agora é necessário realizar o download do Backup, armazene-o em uma pasta local de sua preferência: [`BooksAmazon.bak`](https://drive.google.com/file/d/1nKocZ_g4kVYrME2PGfv-jrv_1FSP9Ic2/view?usp=sharing)
+4️⃣ Neste passo, já com o banco e as tabelas criadas, agora é necessário realizar o download do Backup, armazene-o em uma pasta local de sua preferência: [`BooksAmazon.bak`](https://drive.google.com/file/d/1nKocZ_g4kVYrME2PGfv-jrv_1FSP9Ic2/view?usp=sharing)
    
-5️⃣
+5️⃣Copie e armazene o endereço do local onde a pasta está situada e também o caminho do arquivo, como no exemplo da imagem:
 
-6️⃣ 
+<p align="left">
+<img width="120" height="80" alt="image" src="https://github.com/user-attachments/assets/e0816d5b-1639-4478-8b63-7d10e9de75d4" />
 
+6️⃣ Para rodar o backup em sua máquina local, execute o script: [`Script - Abrindo o backup.sql`](https://github.com/user-attachments/files/23480064/Script.-.Abrindo.o.backup.sql) Substituindo o caminho do aquivo existente, pelo endereço onde a pasta está localizada localmente.
 
 * [1 milhão de registros](https://drive.google.com/file/d/1wr6Ia_pog0gdKnVEynYZDLNG6eorrE9e/view?usp=sharing)
-* [Backup .bak](https://drive.google.com/file/d/1nKocZ_g4kVYrME2PGfv-jrv_1FSP9Ic2/view?usp=sharing)
-
