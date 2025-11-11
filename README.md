@@ -91,7 +91,7 @@ Este guia tem como objetivo explicar como rodar o banco de dados através do Bac
 2️⃣Certifique-se que o banco foi criado olhando na lateral superior esquerda. É importante que ele esteja selecionado, pois os próximos passos deverão ser executados dentro dele.
 
 <p align="left">
-<img width="369" height="270" alt="image" src="https://github.com/user-attachments/assets/056bc900-4141-42c0-a404-c183b887dc71" />
+<img width="320" height="220" alt="image" src="https://github.com/user-attachments/assets/056bc900-4141-42c0-a404-c183b887dc71" />
 
 
 3️⃣ Execute o Script para criar as tabelas do banco:
