@@ -13,7 +13,7 @@ Estamos utilizando um conjunto de dados do **Goodreads**, extraído através do 
 4. [Estrutura do Repositório](#estrutura-do-repositorio)
 5. [Análise de Dados](#analise-de-dados)
 6. [Modelo Lógico](#modelo-logico)
-7. [Guia para importar o BackUp](#guia-backup)
+7. [Guia para importar o Backup](#guia-backup)
 
 ---
 
@@ -75,9 +75,9 @@ Detalhes no documento:[Plano Análise de Dados](https://www.notion.so/An-lise-de
 
 [LucidChart](https://lucid.app/lucidchart/eaafedb9-63a4-4c84-92d0-54e4cdd57607/edit?viewport_loc=-486%2C226%2C3586%2C1475%2CHWEp-vi-RSFO&invitationId=inv_5f967cc8-8434-4b09-8b63-84c4b0b0844b)
 
-<img width="2349" height="1727" alt="Diagrama reviews da Amazon  (1)" src="https://github.com/user-attachments/assets/4cbaa004-51d8-4da8-a7b4-04c12139961f" />
+<img width="2349" height="1727" alt="Diagrama reviews da Amazon" src="https://github.com/user-attachments/assets/4cbaa004-51d8-4da8-a7b4-04c12139961f" />
 
-<h2 id="#guia-backup"> ☁️ Guia para importar o BackUp</h2>
+<h2 id="#guia-backup"> ☁️ Guia para importar o Backup</h2>
 
 Este guia tem como objetivo explicar como rodar o banco de dados através do Backup local - em sua máquina
 
@@ -85,16 +85,16 @@ Este guia tem como objetivo explicar como rodar o banco de dados através do Bac
 
 1. Criando a tabela no SQL Server
    Com o SQL execute o script que criará o banco BooksAmazon:
-   ->`[CreateDatabase.sql]`(https://github.com/user-attachments/files/23477165/CreateDatabase.sql)
+   ->[`CreateDatabase.sql`](https://github.com/user-attachments/files/23477165/CreateDatabase.sql)
 
 3. Certifique-se que o banco foi criado olhando na lateral superior esquerda. É importante que ele esteja selecionado, pois os próximos passos deverão ser executados dentro dele.
    ex.: <img width="236" height="173" alt="image" src="https://github.com/user-attachments/assets/df678a0f-8d9b-49a7-a7b2-1b09ad2ba605" />
 
 4. Execute o Script para criar as tabelas do banco:
-   ->`[CreateTable.sql]`(https://github.com/Burufrinhani/Insert-Goodreads-Analysis/blob/main/output_database.sql)
+   ->[`CreateTable.sql`](https://github.com/Burufrinhani/Insert-Goodreads-Analysis/blob/main/output_database.sql)
 
 6. Neste passo, já temos o banco e as tabelas criadas, agora é necessário realizar o download do Backup:
-   ->`[BooksAmazon.bak]`(https://drive.google.com/file/d/1nKocZ_g4kVYrME2PGfv-jrv_1FSP9Ic2/view?usp=sharing)
+   ->[`BooksAmazon.bak`](https://drive.google.com/file/d/1nKocZ_g4kVYrME2PGfv-jrv_1FSP9Ic2/view?usp=sharing)
    Realizado o download, armazene em uma pasta local de sua preferência.
 
 
