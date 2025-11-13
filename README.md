@@ -35,6 +35,7 @@ O objetivo deste projeto é analisar os dados de avaliações de livros na Amazo
 Este projeto utiliza o dataset **Amazon Product Reviews – Books**, que contém milhões de avaliações de livros feitas por usuários na plataforma Amazon.
 
 * [Amazon Product Reviews - Books](https://cseweb.ucsd.edu/~jmcauley/datasets.html)
+* [Arquivo de 1 milhão de registros](https://drive.google.com/file/d/1wr6Ia_pog0gdKnVEynYZDLNG6eorrE9e/view)
 * [Dicionário de Dados](https://www.notion.so/Dicion-rio-de-dados-2612e007d63e80dfbed5ec4966221406?source=copy_link)
   - **Conteúdo:** Cada registro possui informações sobre o livro e a avaliação do usuário.  
     🔹 Avaliações  
@@ -100,6 +101,18 @@ Este guia tem como objetivo explicar como rodar o banco de dados através do Bac
 <p align="left">
 <img width="120" height="80" alt="image" src="https://github.com/user-attachments/assets/e0816d5b-1639-4478-8b63-7d10e9de75d4" />
 
-6️⃣ Para rodar o backup em sua máquina local, execute o script: [`Script - Abrindo o backup.sql`](https://github.com/user-attachments/files/23480064/Script.-.Abrindo.o.backup.sql) Substituindo o caminho do aquivo existente, pelo endereço onde a pasta está localizada localmente.
+6️⃣ Para rodar o backup em sua máquina local, execute o script: [Script - Abrindo o backup.sql](https://github.com/user-attachments/files/23535286/Script.-.Abrindo.o.backup.sql)
+Substituindo o caminho do aquivo existente, pelo endereço onde a pasta está localizada localmente.
 
-* [1 milhão de registros](https://drive.google.com/file/d/1wr6Ia_pog0gdKnVEynYZDLNG6eorrE9e/view?usp=sharing)
+Seguindo este passo a passo, o banco de dados estará rodando localmente em sua máquina.
+
+---
+
+🎲 Analisando os Dados
+
+Para ter acesso às views que respondem as perguntas de negócio que selecionamos. 
+Primeiro: acompanhe o passo a passo no script:
+
+
+
+
