@@ -59,14 +59,13 @@ O projeto busca responder as seguintes perguntas:
 
 1. Quais os livros mais vendidos?  
 2. A nota média de um livro tende a cair após picos de reviews?  
-3. Quais livros têm o melhor custo-benefício alta avaliação e preço acessível?
-4. Existe diferença de preço entre livros mais antigos e mais recentes?
-5. Os livros mais caros têm avaliações mais altas?
-6. Quais autores têm as avaliações médias mais altas?
-7. Há um aumento no número de lançamentos de livros ao longo dos anos?
-8. Quais autores se destacam por terem vários livros bem avaliados?
-9. Quais autores possuem os livros mais caros e mais baratos?
-10. Os livros lançados recentemente têm mais avaliações do que os antigos?
+3. Existe diferença de preço entre livros mais antigos e mais recentes?
+4. Quais autores têm as avaliações médias mais altas?
+5. Há um aumento no número de lançamentos de livros ao longo dos anos?
+6. O número de reviews está aumentando ao longo dos anos?
+7. Quais autores se destacam por terem vários livros bem avaliados?
+8. Como os livros estão distribuídos por faixa de preço?
+9. Quais são os autores que mais publicaram livros?
 
 Detalhes no documento:[Plano Análise de Dados](https://www.notion.so/An-lise-de-Dados-de-Reviews-da-Amazon-Books-2602e007d63e809ba953ccd10c330932?source=copy_link)
 
