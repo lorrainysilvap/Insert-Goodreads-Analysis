@@ -73,7 +73,7 @@ Detalhes no documento:[Plano Análise de Dados](https://www.notion.so/An-lise-de
 
 <h2 id="modelo-logico">💡 Modelo Lógico</h2>
 
-[LucidChart][Diagrama reviews da Amazon  - Classe UML.pdf](https://github.com/user-attachments/files/23537226/Diagrama.reviews.da.Amazon.-.Classe.UML.pdf)
+[LucidChart][Diagrama reviews da Amazon  - Classe UML.pdf](https://github.com/user-attachments/files/23537298/Diagrama.reviews.da.Amazon.-.Classe.UML.pdf)
 
 
 <img width="2349" height="1727" alt="Diagrama reviews da Amazon" src="https://github.com/user-attachments/assets/4cbaa004-51d8-4da8-a7b4-04c12139961f" />
