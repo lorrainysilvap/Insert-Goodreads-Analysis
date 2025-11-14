@@ -115,7 +115,7 @@ Agora estamos a alguns passos de ter acesso aos dados com métricas reais do dat
   Após entender como funcionam as procedures no banco de dados, execute o script: [executing-procedures.sql](https://github.com/user-attachments/files/23536872/executing-procedures.sql)
  para acessar os comandos que definimos.
 
-* Views: São tabelas virtuais, através delas, geramos o resultado de uma consulta SQL pré-definida que pode ser usada como se fosse uma tabela real. Para entender como funciona na íntegra, execute o script: [learning-views.sql](https://github.com/user-attachments/files/23536861/learning-views.sql)
+* Views: São tabelas virtuais, através delas, geramos o resultado de uma consulta SQL pré-definida que pode ser usada como se fosse uma tabela real. Para entender como funciona na íntegra, execute o script: [learning-views.sql](https://github.com/user-attachments/files/23537165/learning-views.sql)
 .
   Seguindo a lógica da função anterior, execute o script: [executing-views.sql](https://github.com/user-attachments/files/23536860/executing-views.sql)
  para ter acesso às views que cramos de acordo com nosso banco.
