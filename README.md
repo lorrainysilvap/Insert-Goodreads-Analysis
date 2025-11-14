@@ -11,7 +11,7 @@ Estamos utilizando um conjunto de dados do **Goodreads**, extraído através do 
 2. [Planejamento](#planejamento)  
 3. [Fonte dos Dados](#fonte-dos-dados)  
 4. [Estrutura do Repositório](#estrutura-do-repositorio)
-5. [Análise de Dados](#analise-de-dados)
+5. [Perguntas de negócio](#perguntas-negocio)
 6. [Modelo Lógico](#modelo-logico)
 7. [Guia para importar o Backup](#guia-backup)
 8. [Análise de Dados](#analise-dados)
@@ -53,7 +53,7 @@ Para acessar o dataset, abra o link, vá até o Amazon Product Reviews, clique n
 * `output_database.sql`: Construção do Banco de Dados e tabelas.
 ---
 
-<h2 id="analise-de-dados">📈 Plano análise de Dados</h2>
+<h2 id="#perguntas-negocio">📈 Perguntas de Negócio</h2>
 
 O projeto busca responder as seguintes perguntas:  
 
@@ -73,7 +73,8 @@ Detalhes no documento:[Plano Análise de Dados](https://www.notion.so/An-lise-de
 
 <h2 id="modelo-logico">💡 Modelo Lógico</h2>
 
-[LucidChart](https://lucid.app/lucidchart/eaafedb9-63a4-4c84-92d0-54e4cdd57607/edit?viewport_loc=-486%2C226%2C3586%2C1475%2CHWEp-vi-RSFO&invitationId=inv_5f967cc8-8434-4b09-8b63-84c4b0b0844b)
+[LucidChart][Diagrama reviews da Amazon  - Classe UML.pdf](https://github.com/user-attachments/files/23537226/Diagrama.reviews.da.Amazon.-.Classe.UML.pdf)
+
 
 <img width="2349" height="1727" alt="Diagrama reviews da Amazon" src="https://github.com/user-attachments/assets/4cbaa004-51d8-4da8-a7b4-04c12139961f" />
 
