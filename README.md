@@ -1,4 +1,4 @@
-[triggers.sql](https://github.com/user-attachments/files/23536842/triggers.sql)[executing-views.sql](https://github.com/user-attachments/files/23536816/executing-views.sql)[learning-views.sql](https://github.com/user-attachments/files/23536809/learning-views.sql)# 📚 Análise de Dados de reviews da Amazon - Books
+📚 Análise de Dados de reviews da Amazon - Books
 
 Este repositório armazena o projeto de análise de dados sobre literatura, parte da disciplina de Modelagem de Banco de Dados II, do curso de Ciência da Computação 6º semestre.  
 Estamos utilizando um conjunto de dados do **Goodreads**, extraído através do Kaggle. O objetivo principal da análise é explorar tendências e padrões no comportamento de leitores e no desempenho de livros ao longo do tempo.
@@ -112,11 +112,15 @@ Seguindo este passo a passo, o banco de dados estará rodando localmente em sua 
 Agora estamos a alguns passos de ter acesso aos dados com métricas reais do dataset. Para isso siga as instruções dos scripts a seguir:
 
 * Procedures: São blocos de código pré-compilados que executam uma série de comandos para realizar uma tarefa específica, para entender como funciona abra o script: [learning-procedures.sql](https://github.com/user-attachments/files/23536782/learning-procedures.sql)
-  Após entender como funcionam as procedures no banco de dados, execute o script: [executing-procedures.sql](https://github.com/user-attachments/files/23536789/executing-procedures.sql) para acessar os comandos que definimos.
+  Após entender como funcionam as procedures no banco de dados, execute o script: [executing-procedures.sql](https://github.com/user-attachments/files/23536872/executing-procedures.sql)
+ para acessar os comandos que definimos.
 
-* Views: São tabelas virtuais, através delas, geramos o resultado de uma consulta SQL pré-definida que pode ser usada como se fosse uma tabela real. Para entender como funciona na íntegra, execute o script: [Uploading learning-views.sql…]().
-  Seguindo a lógica da função anterior, execute o script: [Uploading executing-views.sql…]() para ter acesso às views que cramos de acordo com nosso banco.
+* Views: São tabelas virtuais, através delas, geramos o resultado de uma consulta SQL pré-definida que pode ser usada como se fosse uma tabela real. Para entender como funciona na íntegra, execute o script: [learning-views.sql](https://github.com/user-attachments/files/23536861/learning-views.sql)
+.
+  Seguindo a lógica da função anterior, execute o script: [executing-views.sql](https://github.com/user-attachments/files/23536860/executing-views.sql)
+ para ter acesso às views que cramos de acordo com nosso banco.
 
-* Triggers: São blocos de código executados automaticamente em resposta a um evento específico, como a inserção, atualização ou exclusão de dados em uma tabela, encontre-os em: [Uploading triggers.sql…]()
+* Triggers: São blocos de código executados automaticamente em resposta a um evento específico, como a inserção, atualização ou exclusão de dados em uma tabela, encontre-os em: [triggers.sql](https://github.com/user-attachments/files/23536857/triggers.sql)
+
 
 
